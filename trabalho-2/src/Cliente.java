@@ -1,3 +1,4 @@
+// Objeto Cliente e seus atributos
 public class Cliente {
     public final int categoria;
     public final int tempoServico;
