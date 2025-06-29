@@ -1,6 +1,7 @@
 public class TenenteEscovinha implements Runnable {
     private final Barbearia barbearia;
-    private final long TEMPO_RELATORIO = 3000; // Tempo em milissegundos
+    // Tempo entre os relatórios parciais 3 segundos = 3000 ms
+    private final long TEMPO_RELATORIO = 3000;
 
     public TenenteEscovinha(Barbearia barbearia) {
         this.barbearia = barbearia;
