@@ -1,0 +1,6 @@
+2025-07-05 19:00:55 [CMD] echo oi > a.txt
+2025-07-05 19:02:51 [CMD] echo mais >> a.txt
+2025-07-05 19:03:06 [CMD] cat < a.txt
+2025-07-05 19:03:26 [CMD] cat < a.txt | grep oi > resultado.txt
+2025-07-05 19:03:54 [CMD] exit
+2025-07-05 19:03:54 [LOG] Saindo do shell.

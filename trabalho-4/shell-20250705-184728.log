@@ -1,0 +1,17 @@
+2025-07-05 18:47:58 [CMD] echo teste > saida.txt
+2025-07-05 18:48:08 [CMD] cat saida.txt
+2025-07-05 18:48:08 [LOG] Processo finalizado com código: 1
+2025-07-05 18:49:46 [CMD] echo outra linha >> saida.txt
+2025-07-05 18:49:54 [CMD] ls
+2025-07-05 18:50:11 [CMD] cat saida.txt
+2025-07-05 18:50:11 [LOG] Processo finalizado com código: 1
+2025-07-05 18:50:28 [CMD] cat < saida.txt
+2025-07-05 18:50:42 [CMD] echo linha com abc | grep abc
+2025-07-05 18:50:55 [CMD] sleep 5 &
+2025-07-05 18:50:55 [LOG] Processo em background iniciado.
+2025-07-05 18:51:02 [CMD] echo sem esperar
+2025-07-05 18:51:12 [CMD] cd ~
+2025-07-05 18:51:16 [CMD] pwd
+2025-07-05 18:51:25 [CMD] ls ./
+2025-07-05 18:51:46 [CMD] exit
+2025-07-05 18:51:46 [LOG] Saindo do shell.
